@@ -1,23 +1,14 @@
 {
-  "name": "newmini",
+  "name": "temple-backend",
   "version": "1.0.0",
   "type": "module",
-  "main": "script.js",
-  "@google/generative-ai": "^0.6.0",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shivamavilla/newMini.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shivamavilla/newMini/issues"
-  },
-  "homepage": "https://github.com/shivamavilla/newMini#readme",
   "dependencies": {
     "@google/generative-ai": "^0.6.0",
     "axios": "^1.10.0",
@@ -26,7 +17,5 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "mongoose": "^8.16.2"
-  },
-  "keywords": [],
-  "description": ""
+  }
 }
