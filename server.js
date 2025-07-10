@@ -19,6 +19,11 @@ mongoose.connect(mongoURI)
   .then(() => console.log("✅ Connected to MongoDB"))
   .catch((err) => console.error("❌ MongoDB connection error:", err));
 
+
+
+  app.get("/", (req, res) => {
+    res.send("Temple Backend API is running ✅");
+  });
 // ✅ Routes
 app.use("/api/temples", templeRoutes);
 
